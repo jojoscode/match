@@ -1,0 +1,50 @@
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: 'Work Sans', 'Helvetica', sans-serif;
+  background-color: rgb(255, 242, 242);
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 7rem;
+  color: rgb(255, 255, 255);
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2.5rem;
+  margin-top: 0;
+}
+
+p {
+  color: rgb(74, 74, 74);
+  margin-bottom: 1.5rem;
+}
+
+p span {
+  font-weight: bold;
+  color: rgb(32, 64, 86);
+}
+
+.full {
+  margin-top: 5.25rem;
+}
+
+#game {
+
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12.5rem;
+  background-color: rgb(32, 64, 86);
+  border-radius: 8px;
+  border: 0;
+  cursor: pointer;
+}
